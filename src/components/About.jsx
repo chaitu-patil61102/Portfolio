@@ -17,15 +17,12 @@ function About() {
 
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          Education & Certifications
+          Education 
         </h1>
         <ul className="list-disc list-inside">
           <li>BCA - Pratap College, Amalner (North Maharashtra University), 2021–2024 — 82.90%</li>
           <li>HSC - Pratap College, Amalner, 2019–2021 — 86.40%</li>
           <li>SSC - D. R. Kanya Shala, Amalner, 2018–2019 — 78.60%</li>
-          <li>Certificate in Information Technology - MS-CIT (2022)</li>
-          <li>National Conference on Commerce, Management & Technology (2023)</li>
-          <li>Data Analytics Certification - Develearn (2024)</li>
         </ul>
 
         <br />
@@ -41,7 +38,7 @@ function About() {
           <li><strong>Soft Skills:</strong> Problem Solving, Communication, Time Management</li>
         </ul>
 
-        <br />
+        {/* <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Academic & Personal Projects
         </h1>
@@ -50,7 +47,7 @@ function About() {
           <li><strong>Blog Application:</strong> Full-stack app with Spring Boot (backend) and Angular (frontend); supports blog CRUD, login/signup, and admin features.</li>
           <li><strong>Employee Management System:</strong> Developed using Spring Boot and Angular with REST APIs; features CRUD for employee data.</li>
           <li><strong>Hotel Booking App:</strong> Created in ReactJS; includes hotel listing, booking functionality, and user detail submission.</li>
-        </ul>
+        </ul> */}
 
         <br />
         <h1 className="text-green-600 font-semibold text-xl">

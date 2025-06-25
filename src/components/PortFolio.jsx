@@ -114,14 +114,14 @@
 
 
 import React, { useState } from "react";
-import java from "../../public/java.png";
+import blog from "../../public/blog.png";
 import python from "../../public/python.webp";
-import mongoDB from "../../public/mongodb.jpg";
+import payroll from "../../public/payroll.png";
 import express from "../../public/express.png";
-import reactjs from "../../public/reactjs.png";
+import bank from "../../public/bank.jpeg";
 import nodejs from "../../public/node.png";
-import angular from "../../public/angular.png";
-import oracle from "../../public/oracle.png";
+import travel from "../../public/travel.jpg";
+import student from "../../public/student.jpeg";
 import ai from "../../public/ai.png";
 
 function Portfolio() {
@@ -130,48 +130,48 @@ function Portfolio() {
   const technologies = [
     {
       id: 1,
-      logo: java,
-      name: "Core & Advanced Java",
+      logo: travel,
+      name: "Tour Travel Website",
       description:
-        "OOPs, collections, multithreading, JDBC, servlets, and JSP for backend logic.",
-      docs: "https://docs.oracle.com/javase/tutorial/",
-      video: "https://www.youtube.com/embed/grEKMHGYyns", // Example
+        "A visually engaging static travel website built with HTML, CSS, and JavaScript. It features sections like destinations, packages, gallery, and contact with smooth navigation and responsive design for an enhanced user experience.",
+      docs: "https://angular.io/docs",
+      // video: "https://www.youtube.com/embed/2OHbjep_WjQ",
     },
     {
       id: 2,
-      logo: angular,
-      name: "Angular",
+      logo: payroll,
+      name: "Payroll Management System",
       description:
-        "Frontend framework using components, routing, and services for dynamic SPAs.",
-      docs: "https://angular.io/docs",
-      video: "https://www.youtube.com/embed/2OHbjep_WjQ",
+        "A Java-based payroll management system, would automate salary calculations, deductions, and tax compliance for employees. It would likely feature a command-line interface for input and display, with data persistence handled through files or a database.",
+      docs: "https://github.com/chaitu-patil61102/Payroll-Management-System.git",
+      // video: "https://www.youtube.com/embed/F5mRW0jo-U4",
     },
     {
       id: 3,
-      logo: reactjs,
-      name: "ReactJS",
+      logo: bank,
+      name: "Bank Application",
       description:
-        "Library used to build responsive UIs with JSX, hooks, props, and states.",
-      docs: "https://reactjs.org/docs/getting-started.html",
-      video: "https://www.youtube.com/embed/bMknfKXIFA8",
+        "A Java-based bank application performing CRUD operations using JDBC with a MySQL database. It allows users to create accounts, view details, update account information, and delete accounts securely through a console or GUI interface.",
+      docs: "https://github.com/chaitu-patil61102/Bank-Application.git",
+      // video: "https://www.youtube.com/embed/bMknfKXIFA8",
     },
     {
       id: 4,
-      logo: mongoDB,
-      name: "MongoDB",
+      logo: blog,
+      name: "Blog Application",
       description:
-        "NoSQL database used for document-based storage and flexible data models.",
-      docs: "https://www.mongodb.com/docs/",
-      video: "https://www.youtube.com/embed/F5mRW0jo-U4",
+        "This is a full-stack blog application where Spring Boot handles the backend APIs, database Mysql and Angular provides a dynamic, interactive frontend. Users can create, view, edit, and delete blog posts, with data seamlessly exchanged between the two frameworks",
+      docs: "https://github.com/chaitu-patil61102/Blog-Application-System.git",
+      // video: "clg-university-website.netlify.app", // Example
     },
     {
       id: 5,
-      logo: oracle,
-      name: "Oracle DB",
+      logo: student,
+      name: "Student Management System",
       description:
-        "Used for structured data storage, queries using SQL, and schema design.",
+        "A full-stack Student Management System using React for the frontend, Spring Boot for the backend handle APIs, and MySQL for data storage. It enables users to add, view, update, and delete student records efficiently.",
       docs: "https://docs.oracle.com/en/database/",
-      video: "https://www.youtube.com/embed/f_C2ep3Mzlo",
+      // video: "https://www.youtube.com/embed/f_C2ep3Mzlo",
     },
     {
       id: 6,
@@ -190,7 +190,7 @@ function Portfolio() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Technology Portfolio</h1>
+        <h1 className="text-3xl font-bold mb-5">Projects Portfolio</h1>
         <span className="underline font-semibold">
           Tools & Technologies I'm Working With
         </span>
@@ -215,16 +215,16 @@ function Portfolio() {
                   href={docs}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+                  className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-4 py-2 rounded"
                 >
-                  Docs
+                  Code
                 </a>
-                <button
+                {/* <button
                   onClick={() => setOpenVideo(openVideo === id ? null : id)}
                   className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
                 >
                   Learn More
-                </button>
+                </button> */}
               </div>
 
               {/* Video Embed (Toggle) */}
