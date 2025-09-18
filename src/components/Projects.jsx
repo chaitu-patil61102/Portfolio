@@ -8,6 +8,7 @@ import nodejs from "../../public/node.png";
 import cake from "../../public/cake.avif";
 import hotel from "../../public/hotel.png";
 import seed from "../../public/seed.png";
+import money from "../../public/money.webp"
 
 function Projects() {
   const [openVideo, setOpenVideo] = useState(null);
@@ -60,11 +61,11 @@ function Projects() {
     },
     {
       id: 6,
-      logo: hotel,
-      name: "Hotel Booking System",
+      logo: money,
+      name: "Money Management System",
       description:
-        "A basic hotel booking application made with React where users can easily add room details and see all available rooms. It offers a simple and clean interface to manage room listings and availability.",
-      docs: "https://github.com/chaitu-patil61102/Hotel-Booking-App.git",
+        "MoneyManager is a full-stack personal finance app built with Spring Boot and React. It helps users manage incomes, expenses, and categories with secure JWT authentication and MySQL support.",
+      docs: "https://github.com/chaitu-patil61102/money-manager-application.git",
       // video: "https://www.youtube.com/embed/f_C2ep3Mzlo",
     },
 
